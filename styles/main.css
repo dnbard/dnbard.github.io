@@ -1,0 +1,149 @@
+body{
+    background: rgb(245, 244, 238);
+    font-family: 'Ubuntu';
+    font-size: 13pt;
+    line-height: 1.5;
+}
+
+header{
+    position: relative;
+    text-align: center;
+}
+
+h1{
+    margin: 5px 10px;
+    text-align: center;
+    font-weight: normal;
+}
+
+div.inline{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.avatar-wrapper{
+    position: relative;
+    top: -10px;
+}
+
+address{
+    text-align: center;
+    font-style: normal;
+}
+
+.avatar{
+    width : 90px;
+    border-radius: 50px;
+}
+
+.header__line{
+    height: 45px;
+    background: #0F9D58;
+}
+
+section{
+    max-width: 860px;
+    margin: 0 auto 20px auto;
+}
+
+section .label{
+    border-bottom: 1px solid #0F9D58;
+    padding-left: 20px;
+    padding-bottom: 4px;
+    margin-bottom: 8px;
+    font-size: 16pt;
+    font-variant: small-caps;
+    font-weight: bold;
+    color: #0F9D58;
+}
+
+section .info{
+    margin: 0 0 0 170px;
+    text-align: justify;
+}
+
+.company{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14pt;
+    margin-right: 15px;
+}
+
+.title, .time{
+    font-variant: small-caps;
+    margin-right: 15px;
+}
+
+.date{
+    font-size: 11px;
+}
+
+.job{
+    margin-top: 10px;
+}
+
+.separator{
+    height: 1px;
+    background: #0F9D58;
+    margin: 4px 0 8px 0;
+}
+
+i{
+    vertical-align: middle;
+    font-size: 14pt;
+    padding-right: 2px;
+    display: inline-block;
+}
+
+.skill{
+    margin: 2px 0;
+}
+
+.skill:before{
+    content: " ";
+    width: 10px;
+    height: 10px;
+    background: #0F9D58;
+    position: absolute;
+    margin-left: -17px;
+    margin-top: 5px;
+    border-radius: 50%;
+}
+
+.center{
+    text-align: center;
+}
+
+.example{
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    transition: 0.35s all ease-in;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+.example:hover{
+    border: 1px solid gray;
+}
+
+.example:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    box-shadow: inset 0 0 100px black;
+    width: 270px;
+    height: 200px;
+    border-radius: 10px;
+    transition: 0.35s all ease-in;
+}
+
+.example:hover:before {
+    box-shadow: none;
+}
+
+.example > img{
+    border-radius: 10px;
+}
